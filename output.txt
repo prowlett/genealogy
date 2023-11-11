@@ -1,0 +1,340 @@
+Run to 20 generations no matter what:
+
+All in one population, no towns:
+
+Number of simulations: 10
+Starting with 1500 people
+Number extinct: 1 (10%)
+From the simulations which completed without extinction:
+Number all *: 9 (100%)
+End population size:
+Min: 45272
+Max: 47808
+Mean: 46516.3
+Median: 46309
+Mode: 47349
+End number related to *:
+Min: 45272
+Max: 47808
+Mean: 46516.3
+Median: 46309
+Mode: 47349
+
+real	51m19.591s
+user	51m19.158s
+sys	0m0.053s
+
+
+Towns, three runs:
+
+Number of simulations: 10
+Starting with 15 towns, each of 100 people
+Number extinct: 3 (30%)
+From the simulations which completed without extinction:
+Number all *: 6 (85%)
+End population size:
+Min: 44683
+Max: 50410
+Mean: 48334.9
+Median: 49175
+Mode: 47967
+End number related to *:
+Min: 44683
+Max: 50410
+Mean: 48032.3
+Median: 47967
+Mode: 47967
+
+real	2m49.562s
+user	2m49.491s
+sys	0m0.049s
+
+Number of simulations: 10
+Starting with 15 towns, each of 100 people
+Number extinct: 0 (0%)
+From the simulations which completed without extinction:
+Number all *: 9 (90%)
+End population size:
+Min: 45898
+Max: 51115
+Mean: 47890.8
+Median: 47716.5
+Mode: 48646
+End number related to *:
+Min: 45898
+Max: 51115
+Mean: 47878.2
+Median: 47653.5
+Mode: 48646
+
+real	3m56.917s
+user	3m56.827s
+sys	0m0.044s
+
+Number of simulations: 10
+Starting with 15 towns, each of 100 people
+Number extinct: 0 (0%)
+From the simulations which completed without extinction:
+Number all *: 9 (90%)
+End population size:
+Min: 45738
+Max: 50626
+Mean: 48196.7
+Median: 48364.0
+Mode: 50338
+End number related to *:
+Min: 45738
+Max: 50626
+Mean: 48195.4
+Median: 48364.0
+Mode: 50338
+
+real	4m0.621s
+user	4m0.532s
+sys	0m0.053s
+
+
+Won't complete with 2m people:
+
+Start at: 1699267695.8226485
+2000000 people, 1* (0%)
+Generation 1: 2375342 people, 3* (0%)
+Generation 2: 2819681 people, 7* (0%)
+Generation 3: 3349051 people, 17* (0%)
+Generation 4: 3974373 people, 44* (0%)
+Generation 5: 47201159 people, 103* (0%)
+Generation 6: 5605648h people, 227* (0%)
+Generation 7: 6660719 people, 517* (0%)
+Generation 8: 7908523 people, 1217* (0%)
+Generation 9: 9396182 people, 2949* (0%)
+Generation 10: 11153088 people, 6925* (0%)
+Generation 11: 13246193 people, 16529* (0%)
+Generation 12: 15732233 people, 39383* (0%)
+Generation 13: 18681048 people, 93510* (0%)
+Generation 14: 22184122 people, 221399* (0%)
+Generation 15: 26341941 people, 522380* (1%)
+Generation 16: 31273815 people, 1227768* (3%)
+Generation 17: 37136974 people, 2859027* (7%)
+[At this point the computer crashed]
+
+Generation 0: 2000000 people, 1* (0%)
+Generation 1: 2374633 people, 2* (0%)
+Generation 2: 2818786 people, 4* (0%)
+Generation 3: 3345775 people, 10* (0%)
+Generation 4: 3973832 people, 26* (0%)
+Generation 5: 4718534 people, 63* (0%)
+Generation 6: 5602927 people, 150* (0%)
+Generation 7: 6653567 people, 341* (0%)
+Generation 8: 7900411 people, 827* (0%)
+Generation 9: 9383756 people, 1941* (0%)
+Generation 10: 11141627 people, 4609* (0%)
+Generation 11: 13229163 people, 10811* (0%)
+Generation 12: 15716572 people, 25570* (0%)
+Generation 13: 18666963 people, 60950* (0%)
+Generation 14: 22165614 people, 144753* (0%)
+Generation 15: 26314713 people, 342190* (1%)
+Generation 16: 31238667 people, 806415* (2%)
+Generation 17: 37089082 people, 1889350* (5%)
+Generation 18: 44047722 people, 4371831* (9%)
+Generation 19: 52315292 people, 9865559* (18%)
+Generation 20: 62138283 people, 21225882* (34%)
+
+
+
+
+
+
+
+
+
+Run until everyone has * as an ancestor:
+
+
+All in one population, no towns:
+
+Number of simulations: 10
+Starting with 1500 people
+Number extinct: 1 (10%)
+From the simulations which completed without extinction:
+End population size:
+Min: 15022
+Max: 29393
+Mean: 21024.2
+Median: 20282
+Mode: 23647
+Number of generations:
+Min: 13
+Max: 17
+Mean: 15.2
+Median: 15
+Mode: 16
+
+real	11m4.945s
+user	11m4.820s
+sys	0m0.028s
+
+Quicker version of code:
+
+Number of simulations: 10
+Starting with 1500 people
+Number extinct: 1 (10%)
+From the simulations which completed without extinction:
+End population size:
+Min: 13640
+Max: 28077
+Mean: 16575.3
+Median: 15251
+Mode: 15251
+Number of generations:
+Min: 13
+Max: 17
+Mean: 13.8
+Median: 13
+Mode: 13
+
+real	0m0.866s
+user	0m0.861s
+sys	0m0.004s
+
+Number of simulations: 100
+Starting with 1500 people
+Number extinct: 6 (6%)
+From the simulations which completed without extinction:
+End population size:
+Min: 12862
+Max: 32680
+Mean: 18949.4
+Median: 17567.0
+Mode: 16896
+Number of generations:
+Min: 13
+Max: 18
+Mean: 14.6
+Median: 14.0
+Mode: 14
+
+real	0m10.098s
+user	0m10.081s
+sys	0m0.016s
+
+Number of simulations: 100
+Starting with 15000 people
+Number extinct: 6 (6%)
+From the simulations which completed without extinction:
+End population size:
+Min: 232331
+Max: 675624
+Mean: 357104.8
+Median: 333337.0
+Mode: 330711
+Number of generations:
+Min: 16
+Max: 22
+Mean: 18.3
+Median: 18.0
+Mode: 18
+End at: 398.85480284690857
+
+
+
+
+
+
+
+Towns:
+
+Number of simulations: 10
+Starting with 15 towns, each of 100 people
+Number extinct: 1 (10%)
+From the simulations which completed without extinction:
+End population size:
+Min: 27811
+Max: 43499
+Mean: 34723.9
+Median: 33290
+Mode: 33290
+Number of generations:
+Min: 17
+Max: 19
+Mean: 17.9
+Median: 18
+Mode: 17
+
+real	1m58.545s
+user	1m58.504s
+sys	0m0.020s
+
+
+Quicker version of code:
+
+Number of simulations: 100
+Starting with 15 towns, each of 1000 people
+Number extinct: 5 (5%)
+From the simulations which completed without extinction:
+End population size:
+Min: 326781
+Max: 787216
+Mean: 483767.3
+Median: 468366
+Mode: 462777
+Number of generations:
+Min: 18
+Max: 23
+Mean: 20.1
+Median: 20
+Mode: 20
+End at: 424.7581696510315
+
+Won't complete with 2m people in 15 towns:
+
+Start at: 1699266375.4774938
+1999995 people, 1* (0%)
+Generation 1: 2374872 people, 2* (0%)
+Generation 2: 2822584 people, 5* (0%)
+Generation 3: 3352366 people, 9* (0%)
+Generation 4: 3980370 people, 20* (0%)
+Generation 5: 4727089 people, 42* (0%)
+Generation 6: 5613680 people, 80* (0%)
+Generation 7: 6664085 people, 197* (0%)
+Generation 8: 7913478 people, 478* (0%)
+Generation 9: 9396166 people, 1162* (0%)
+Generation 10: 11159150 people, 2750* (0%)
+Generation 11: 13254664 people, 6433* (0%)
+Generation 12: 15737093 people, 15290* (0%)
+Generation 13: 18690717 people, 36574* (0%)
+Generation 14: 22201918 people, 86665* (0%)
+Generation 15: 26371540 people, 204989* (0%)
+Generation 16: 31312962 people, 482215* (1%)
+Generation 17: 37183116 people, 1127890* (3%)
+Killed [Ubuntu killed the process]
+
+Presumably the movement of people increases with the industrial revolution, trying this so that at gen 8 the probability of moving changes from 5% to 20%.
+
+Start at: 1699267121.6278105
+1999995 people, 1* (0%)
+Generation 1: 2376693 people, 3* (0%)
+Generation 2: 2822211 people, 6* (0%)
+Generation 3: 3350687 people, 13* (0%)
+Generation 4: 3977235 people, 33* (0%)
+Generation 5: 4724447 people, 71* (0%)
+Generation 6: 5609483 people, 169* (0%)
+Generation 7: 6661948 people, 396* (0%)
+Generation 8: 7909002 people, 910* (0%)
+Generation 9: 9391302 people, 2168* (0%)
+Generation 10: 11149918 people, 5140* (0%)
+Generation 11: 13243693 people, 12237* (0%)
+Generation 12: 15725031 people, 29022* (0%)
+Generation 13: 18673355 people, 68556* (0%)
+Generation 14: 22175373 people, 162648* (0%)
+Generation 15: 26331441 people, 384206* (1%)
+Generation 16: 31263384 people, 905600* (2%)
+Generation 17: 37112147 people, 2118550* (5%)
+Killed [Ubuntu killed the process]
+
+
+
+
+
+
+
+
